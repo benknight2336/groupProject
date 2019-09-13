@@ -1,8 +1,11 @@
-@import "_navbar.scss";
+$background: #111d27;
+$fontcolor: #ffffff;
 
 
 body{
   padding: 0;
   margin: 0;
   width: 100%;
+  background-color: $background;
 }
+@import "_navbar.scss";
