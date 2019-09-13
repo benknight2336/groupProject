@@ -30,10 +30,21 @@
       font-size: 25px;
     }
   }
-  .right a {
+  .right button {
     color: $fontcolor;
+    border: none;
+    background-color: #111d27;
     text-decoration: none;
     margin: 0 20px;
     font-size: 20px;
+    transition: transform .2s;
+    cursor: pointer;
+  }
+  .right button:hover{
+    transform: scale(1.2);
+  }
+  .active{
+    border-bottom: 3px solid #4bf3ae;
+    padding-bottom: 10px;
   }
 }
