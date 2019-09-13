@@ -11,11 +11,24 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   background-color: #111d27; }
-
-.left a {
-  text-decoration: none;
-  color: #ffffff; }
-
-.right a {
-  color: #ffffff;
-  text-decoration: none; }
+  .navbar .left {
+    margin-left: 50px; }
+  .navbar .left a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px; }
+  .navbar .right {
+    margin: 0 50px; }
+    .navbar .right .fa-circle {
+      color: #ffffff;
+      font-size: 10px;
+      position: relative;
+      top: -2px; }
+    .navbar .right .fa-bars {
+      color: #ffffff;
+      font-size: 25px; }
+  .navbar .right a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px; }

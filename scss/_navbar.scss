@@ -1,16 +1,39 @@
-.navbar{
+.navbar {
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   background-color: $background;
-}
-.left a{
-  text-decoration: none;
-  color: $fontcolor;
-}
-.right a{
-  color: $fontcolor;
-  text-decoration: none;
+
+  .left {
+    margin-left: 50px;
+  }
+
+  .left a {
+    text-decoration: none;
+    color: $fontcolor;
+    font-size: 40px;
+  }
+  .right{
+    margin: 0 50px;
+
+
+    .fa-circle{
+      color: $fontcolor;
+      font-size: 10px;
+      position: relative;
+      top: -2px;
+    }
+    .fa-bars{
+      color: $fontcolor;
+      font-size: 25px;
+    }
+  }
+  .right a {
+    color: $fontcolor;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+  }
 }
