@@ -9,4 +9,11 @@ body{
   background-color: $background;
 }
 @import "_navbar.scss";
+.heroimg{
+  display: flex;
+  justify-content: center;
 
+  img{
+    width: 900px;
+  }
+}

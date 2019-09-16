@@ -41,3 +41,9 @@ body {
   .navbar .active {
     border-bottom: 3px solid #4bf3ae;
     padding-bottom: 10px; }
+
+.heroimg {
+  display: flex;
+  justify-content: center; }
+  .heroimg img {
+    width: 900px; }
