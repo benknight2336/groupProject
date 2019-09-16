@@ -1,15 +1,27 @@
 .bottom{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
   .text{
     width: 25%;
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #454e57;
+
   }
   .text p{
-    color: $fontcolor
+    color: $fontcolor;
+    padding-right: 50px;
+    line-height: 140%;
   }
 
   .button{
     width: 25%;
+    display: flex;
+    align-items: center;
+
+    button{
+      margin: 10px;
+    }
   }
 }
