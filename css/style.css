@@ -23,19 +23,26 @@
       font-size: 25px; }
   .navbar .right button {
     color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.15em;
     border: none;
-    background-color: #111d27;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 20px;
-    transition: transform .2s;
-    cursor: pointer; }
-  .navbar .right button:hover {
-    transform: scale(1.2); }
-  .navbar .active {
-    border-bottom: 3px solid #4bf3ae;
-    padding-bottom: 10px;
-    border: 1px black solid; }
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    background-color: #111d27; }
+  .navbar .right button:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #4bf3ae;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0; }
+  .navbar .right button:hover:after {
+    width: 100%;
+    left: 0; }
 
 body {
   padding: 0;
