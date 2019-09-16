@@ -1,9 +1,3 @@
-body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: #111d27; }
-
 .navbar {
   width: 100%;
   height: 80px;
@@ -40,10 +34,36 @@ body {
     transform: scale(1.2); }
   .navbar .active {
     border-bottom: 3px solid #4bf3ae;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    border: 1px black solid; }
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #111d27; }
 
 .heroimg {
   display: flex;
   justify-content: center; }
   .heroimg img {
     width: 900px; }
+
+.bottom {
+  display: flex;
+  justify-content: space-around; }
+  .bottom .text {
+    width: 25%; }
+  .bottom .text p {
+    color: #ffffff; }
+  .bottom .button {
+    width: 25%; }
+
+.footer {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+  .footer i {
+    padding: 10px;
+    color: #ffffff; }

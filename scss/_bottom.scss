@@ -1,0 +1,15 @@
+.bottom{
+  display: flex;
+  justify-content: space-around;
+
+  .text{
+    width: 25%;
+  }
+  .text p{
+    color: $fontcolor
+  }
+
+  .button{
+    width: 25%;
+  }
+}
