@@ -19,9 +19,37 @@
     width: 25%;
     display: flex;
     align-items: center;
+    margin-left: 75px;
 
-    button{
-      margin: 10px;
+
+    .get{
+      background: linear-gradient(180deg, rgba(129,217,255,0.32584908963585435) 24%, rgba(80,255,193,1) 100%);
+      height: 120px;
+      width: 120px;
+      margin-right: 15px;
+
+      div{
+        position: relative;
+        top: 90px;
+        left: 3px;
+      }
+    }
+    .emptybox{
+      background: linear-gradient(180deg, rgba(233,67,241,1) 50%, rgba(250,206,37,1) 100%);
+      height: 120px;
+      width: 120px;
+
+      .how{
+        background: $background;
+        position: relative;
+        top: 90px;
+        left: 3px;
+
+        div{
+          color: $fontcolor;
+          margin-right: 3px;
+        }
+      }
     }
   }
 }

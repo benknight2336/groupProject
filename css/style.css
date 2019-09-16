@@ -64,9 +64,29 @@ body {
   .bottom .button {
     width: 25%;
     display: flex;
-    align-items: center; }
-    .bottom .button button {
-      margin: 10px; }
+    align-items: center;
+    margin-left: 75px; }
+    .bottom .button .get {
+      background: linear-gradient(180deg, rgba(129, 217, 255, 0.325849) 24%, #50ffc1 100%);
+      height: 120px;
+      width: 120px;
+      margin-right: 15px; }
+      .bottom .button .get div {
+        position: relative;
+        top: 90px;
+        left: 3px; }
+    .bottom .button .emptybox {
+      background: linear-gradient(180deg, #e943f1 50%, #face25 100%);
+      height: 120px;
+      width: 120px; }
+      .bottom .button .emptybox .how {
+        background: #111d27;
+        position: relative;
+        top: 90px;
+        left: 3px; }
+        .bottom .button .emptybox .how div {
+          color: #ffffff;
+          margin-right: 3px; }
 
 .footer {
   display: flex;
