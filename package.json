@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/benknight2336/groupProject#readme",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
